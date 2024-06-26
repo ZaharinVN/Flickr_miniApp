@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Theme.Flickr" parent="android:Theme.Material.Light.NoActionBar" />
+
+    <style name="textViewTitleStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginStart">8dp</item>
+        <item name="android:layout_marginTop">14dp</item>
+        <item name="android:layout_marginBottom">14dp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+    <style name="textViewOwnerStyle">
+        <style name="trackName">
+            <item name="android:layout_width">wrap_content</item>
+            <item name="android:layout_height">19dp</item>
+            <item name="android:ellipsize">end</item>
+            <item name="android:maxLines">1</item>
+            <item name="android:textSize">16sp</item>
+            <item name="android:textColor">@color/black</item>
+        </style>
+    </style>
+
+
+</resources>
